@@ -26,7 +26,9 @@ Execute `VFP90SP2-KB968409-ENU.exe` to extract files into a folder you will subs
 
 ## Other Things
 
-Execute `VFPODBC.msi` to get the latest VFP ODBC driver.
+* Execute `VFPODBC.msi` to get the latest VFP ODBC driver.
+* Execute `HTMLHelp.exe` to install the Microsoft HTML Help Workshop (needed to build CHM files).
+* Execute `VFPOLEDBSetup.msi` to get the latest VFP OLE DB provider.
 
 ## More Info
 
