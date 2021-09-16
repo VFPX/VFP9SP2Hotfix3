@@ -26,11 +26,16 @@ Execute `VFP90SP2-KB968409-ENU.exe` to extract files into a folder you will subs
 
 ## Other Things
 
-* Execute `VFPODBC.msi` to get the latest VFP ODBC driver.
+* Execute `VFPODBC.msi`, `VFPODBC_German.msi`, or `VFPODBC_Spanish.msi` to get the latest VFP ODBC driver.
 * Execute `HTMLHelp.exe` to install the Microsoft HTML Help Workshop (needed to build CHM files).
 * Execute `VFPOLEDBSetup.msi` to get the latest VFP OLE DB provider.
+* Use `VFPODBC.msm` or `VFPOLEDB.msm` as merge modules with a Windows Installer based installer to instal the latest VFP ODBC driver or OLE DB provider.
 
 ## More Info
 
-See wOOdy's blog entry ["How to install VFP9 in a modern world"](http://woody-prolib.blogspot.com/2018/12/how-to.html) for more details and tips on how to set up VFP9 and upgrade to the latest version.
+* See wOOdy's blog entry ["How to install VFP9 in a modern world"](http://woody-prolib.blogspot.com/2018/12/how-to.html) for more details and tips on how to set up VFP9 and upgrade to the latest version.
+
+* See [ODBC_Release_Notes.md](ODBC_Release_Notes.md) for Microsoft's release notes for the ODBC driver.
+
+* See [OLEDB_Release_Notes.md](OLEDB_Release_Notes.md) for Microsoft's release notes for the OLE DB provider.
 
