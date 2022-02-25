@@ -30,6 +30,7 @@ Execute `VFP90SP2-KB968409-ENU.exe` to extract files into a folder you will subs
 * Execute `HTMLHelp.exe` to install the Microsoft HTML Help Workshop (needed to build CHM files).
 * Execute `VFPOLEDBSetup.msi` to get the latest VFP OLE DB provider.
 * Use `VFPODBC.msm` or `VFPOLEDB.msm` as merge modules with a Windows Installer based installer to instal the latest VFP ODBC driver or OLE DB provider.
+* Execute `VFP9.0sp2-KB958371-X86-Enu.exe` to install a ActiveX control security update (from [https://www.microsoft.com/en-us/download/details.aspx?id=22158](https://www.microsoft.com/en-us/download/details.aspx?id=22158).
 
 ## More Info
 
